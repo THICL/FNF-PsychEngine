@@ -663,7 +663,7 @@ class TitleState extends MusicBeatState
 				// credTextShit.screenCenter();
 				case 6:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Not associated', 'with'], -40);
+					createCoolText(['shaya', 'camzta in love fr'], -40);
 					#else
 					createCoolText(['In association', 'with'], -40);
 					#end
@@ -690,13 +690,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('jump');
 				// credTextShit.visible = true;
 				case 15:
-					addMoreText('Night');
+					addMoreText('sides');
 				// credTextShit.text += '\nNight';
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText(''); // credTextShit.text += '\nFunkin';
 
 				case 17:
 					skipIntro();
